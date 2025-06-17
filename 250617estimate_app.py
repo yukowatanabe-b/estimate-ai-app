@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 
 # データ読み込み
-df = pd.read_csv("G:/マイドライブ/ExcelPython/org/estimate_data.csv", encoding="cp932")
+df = pd.read_csv("estimate_data.csv", encoding="cp932")
 
 # ラベルエンコーディング（カテゴリ変数を数値に変換）
 le_material = LabelEncoder()
